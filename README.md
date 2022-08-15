@@ -135,23 +135,6 @@ GENE_df.to_csv('SARS-CoV-2_Primer_Sequences.csv',index=False)
 GENE_df
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -406,8 +389,6 @@ df1=pd.DataFrame({"Primer Name":Primer_Name, "Sequence":Sequence,"Complement":Co
 ```python
 df1
 ```
-
-
 
 <table border="1" class="dataframe">
   <thead>
@@ -768,24 +749,7 @@ df2 = pd.DataFrame({
 ```python
 df2
 ```
-
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1019,10 +983,6 @@ df3=pd.DataFrame({"Primer Name":Primer_Name,'Sequence Pair Number':Sequence_Sequ
 df3
 ```
 
-
-      0%|          | 0/18 [00:00<?, ?it/s]
-
-
     CPU times: user 403 ms, sys: 28.4 ms, total: 431 ms
     Wall time: 19.1 s
     
@@ -1031,19 +991,6 @@ df3
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1438,19 +1385,6 @@ GENE_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1653,9 +1587,6 @@ for i in tqdm(SequencePairs_list):
 ```
 
 
-      0%|          | 0/153 [00:00<?, ?it/s]
-
-
     CPU times: user 3.21 s, sys: 225 ms, total: 3.44 s
     Wall time: 2min 42s
     
@@ -1676,19 +1607,6 @@ df4
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
