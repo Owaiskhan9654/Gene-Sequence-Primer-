@@ -376,9 +376,6 @@ df1=pd.DataFrame({"Primer Name":Primer_Name, "Sequence":Sequence,"Complement":Co
 ```
 
 
-      0%|          | 0/18 [00:00<?, ?it/s]
-
-
     CPU times: user 419 ms, sys: 25.9 ms, total: 445 ms
     Wall time: 18.2 s
     
@@ -734,11 +731,6 @@ df2 = pd.DataFrame({
 
 
 ```
-
-
-      0%|          | 0/18 [00:00<?, ?it/s]
-
-
     CPU times: user 412 ms, sys: 36.9 ms, total: 449 ms
     Wall time: 17.6 s
     
@@ -1375,14 +1367,9 @@ df3
 ```python
 df3.to_csv('Output Data GENE Analysis/GENE_SelfDimers.csv', index=False)
 ```
-
-
 ```python
 GENE_df
 ```
-
-
-
 
 <div>
 <table border="1" class="dataframe">
@@ -1585,7 +1572,6 @@ for i in tqdm(SequencePairs_list):
     Sequence_SequencePair.append(temp)
     temp = 1
 ```
-
 
     CPU times: user 3.21 s, sys: 225 ms, total: 3.44 s
     Wall time: 2min 42s
